@@ -188,3 +188,6 @@ logs/
 # Temporary files
 tmp/
 temp/
+
+# Node modules (frontend)
+frontend/node_modules/
