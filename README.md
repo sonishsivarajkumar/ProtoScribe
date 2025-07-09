@@ -235,6 +235,6 @@ If you use ProtoScribe in your research, please cite:
 
 **[⭐ Star this repository](https://github.com/sonishsivarajkumar/ProtoScribe) if you find it helpful!**
 
-Made with ❤️ by [Sonish Sivarajkumar](https://github.com/sonishsivarajkumar)
+Made by [Sonish Sivarajkumar](https://github.com/sonishsivarajkumar)
 
 </div>
