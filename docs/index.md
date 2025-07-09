@@ -1,18 +1,6 @@
-# ProtoScribe
+# 🧬 ProtoScribe
 
-<div align="center">
-  
-  # 🧬 ProtoScribe
-  ### *Clinical Trial Protocol AI Optimizer*
-  
-  *Automated compliance checking and AI-powered optimization for clinical trial protocols*
-  
-  [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/sonishsivarajkumar/ProtoScribe/blob/main/LICENSE)
-  [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
-  [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com)
-  [![Next.js](https://img.shields.io/badge/Next.js-14+-black.svg)](https://nextjs.org)
-  [![Documentation](https://img.shields.io/badge/docs-MkDocs-blue.svg)](https://sonishsivarajkumar.github.io/ProtoScribe)
-</div>
+
 
 ---
 
@@ -201,5 +189,5 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](about/
 ---
 
 <div align="center">
-  <strong>Built with ❤️ by Sonish for the clinical research community</strong>
+  <strong>Built for the clinical research community</strong>
 </div>
