@@ -1,19 +1,82 @@
-# ProtoScribe - Trial Protocol AI Optimizer
+<div align="center">
 
-Clinical trial protocols are lengthy, complex documents that must adhere to CONSORT/SPIRIT guidelines. Manual compliance checking is time-consuming and error-prone. The Trial Protocol AI Optimizer accelerates and standardizes protocol drafting by automatically identifying missing or under-specified elements and suggesting high-quality text.
+# 🧬 ProtoScribe
+### *Clinical Trial Protocol AI Optimizer*
 
-## Features
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-14+-black.svg)](https://nextjs.org/)
+[![Documentation](https://img.shields.io/badge/docs-MkDocs-blue.svg)](https://sonishsivarajkumar.github.io/ProtoScribe)
 
-- **Document Ingestion**: Accepts PDF, DOCX, or plain-text protocols via drag-and-drop or file dialog
-- **Section Segmentation**: Identifies major headings and builds structured document tree
-- **Compliance Checking**: Validates against CONSORT/SPIRIT guidelines
-- **LLM-Powered Analysis**: Uses AI to identify missing or incomplete elements
-- **Interactive Review UI**: Side-by-side comparison with accept/edit/reject workflow
-- **Protocol Scoring**: Computes completeness scores and generates reports
-- **Version Control**: Tracks edits and maintains revision history
-- **Export & Integration**: Outputs to DOCX/PDF with optional API integrations
+*Accelerate clinical trial protocol development with AI-powered compliance checking and intelligent suggestions*
 
-## Quick Start
+[**📖 Documentation**](https://sonishsivarajkumar.github.io/ProtoScribe) • [**🚀 Quick Start**](#-quick-start) • [**🔧 API Reference**](https://sonishsivarajkumar.github.io/ProtoScribe/api-reference/overview/) • [**💬 Discussions**](https://github.com/sonishsivarajkumar/ProtoScribe/discussions)
+
+</div>
+
+---
+
+## 🎯 Overview
+
+Clinical trial protocols are complex documents that must adhere to **CONSORT/SPIRIT guidelines**. Manual compliance checking is time-consuming and error-prone. ProtoScribe transforms protocol development by:
+
+- **🤖 AI-Powered Analysis** - Automatically identifies missing or under-specified elements
+- **📊 Real-time Compliance** - Validates against international guidelines  
+- **✨ Smart Suggestions** - Generates high-quality text improvements
+- **⚡ Interactive Workflow** - Streamlined review and editing interface
+
+## 🌟 Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 📄 **Document Processing**
+- **Multi-format Support** - PDF, DOCX, plain text
+- **Smart Segmentation** - Automatic section detection
+- **Structure Analysis** - Document tree generation
+
+### 🔍 **AI Analysis**
+- **Compliance Validation** - CONSORT/SPIRIT guidelines
+- **Missing Element Detection** - Comprehensive scanning
+- **Intelligent Suggestions** - Context-aware improvements
+
+</td>
+<td width="50%">
+
+### 🎛️ **Interactive Interface**
+- **Side-by-side Editor** - Compare original and suggestions
+- **Review Workflow** - Accept, edit, or reject changes
+- **Real-time Scoring** - Protocol completeness metrics
+
+### 📊 **Export & Integration**
+- **Multiple Formats** - DOCX, PDF export
+- **Version Control** - Track changes and history
+- **API Integration** - Programmatic access
+
+</td>
+</tr>
+</table>
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+<table>
+<tr>
+<td><strong>🐍 Python</strong></td>
+<td>3.10+ required</td>
+</tr>
+<tr>
+<td><strong>🟢 Node.js</strong></td>
+<td>18+ for frontend</td>
+</tr>
+<tr>
+<td><strong>🔑 API Keys</strong></td>
+<td>OpenAI or Anthropic</td>
+</tr>
+</table>
 
 ### Installation
 
@@ -97,30 +160,30 @@ protoscribe/
 
 ### Phase 1: Foundation (MVP)
 - [x] Project setup and structure
-- [ ] File ingestion (PDF, DOCX, text)
-- [ ] Section segmentation and parsing
-- [ ] Basic rule-based compliance checking
-- [ ] Scoring system
+- [x] FastAPI backend with LLM integration
+- [x] React frontend with Tailwind CSS
+- [x] Database models and API endpoints
+- [x] Basic compliance checking framework
 
 ### Phase 2: AI Integration
-- [ ] LLM integration with LangChain
-- [ ] Missing item detection
-- [ ] Suggestion generation
-- [ ] Prompt templates for guidelines
+- [x] LLM integration (OpenAI/Anthropic)
+- [x] Advanced prompt templates
+- [x] Provider comparison and fallback
+- [x] Suggestion generation pipeline
 
 ### Phase 3: Interactive UI
-- [ ] React frontend with Tailwind CSS
-- [ ] Side-by-side editor interface
-- [ ] Accept/edit/reject workflow
-- [ ] Version history and comparison
+- [x] Side-by-side editor interface
+- [x] Accept/edit/reject workflow
+- [x] Real-time protocol scoring
+- [x] Executive summary generation
 
 ### Phase 4: Advanced Features
 - [ ] Export templates (DOCX/PDF)
-- [ ] API integrations
-- [ ] Team collaboration
-- [ ] Advanced analytics
+- [ ] Advanced analytics dashboard
+- [ ] Team collaboration features
+- [ ] Production database integration
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -143,11 +206,11 @@ mypy src/
 flake8 src/ tests/
 ```
 
-## License
+## 📄 License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## Citation
+## 📚 Citation
 
 If you use ProtoScribe in your research, please cite:
 
@@ -160,8 +223,18 @@ If you use ProtoScribe in your research, please cite:
 }
 ```
 
-## Support
+## 🆘 Support
 
-- Documentation: https://protoscribe.readthedocs.io
-- Issues: https://github.com/sonishsivarajkumar/ProtoScribe/issues
-- Discussions: https://github.com/sonishsivarajkumar/ProtoScribe/discussions
+- **📖 Documentation**: https://sonishsivarajkumar.github.io/ProtoScribe
+- **🐛 Issues**: https://github.com/sonishsivarajkumar/ProtoScribe/issues
+- **💬 Discussions**: https://github.com/sonishsivarajkumar/ProtoScribe/discussions
+
+---
+
+<div align="center">
+
+**[⭐ Star this repository](https://github.com/sonishsivarajkumar/ProtoScribe) if you find it helpful!**
+
+Made with ❤️ by [Sonish Sivarajkumar](https://github.com/sonishsivarajkumar)
+
+</div>
