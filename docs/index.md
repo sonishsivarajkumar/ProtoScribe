@@ -1,13 +1,13 @@
 # ProtoScribe
 
 <div align="center">
-  <img src="assets/logo.svg" alt="ProtoScribe Logo" width="200"/>
   
-  **Clinical Trial Protocol AI Optimizer**
+  # 🧬 ProtoScribe
+  ### *Clinical Trial Protocol AI Optimizer*
   
   *Automated compliance checking and AI-powered optimization for clinical trial protocols*
   
-  [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+  [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/sonishsivarajkumar/ProtoScribe/blob/main/LICENSE)
   [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
   [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com)
   [![Next.js](https://img.shields.io/badge/Next.js-14+-black.svg)](https://nextjs.org)
@@ -188,7 +188,7 @@ graph TB
 - 📖 **Documentation**: [Complete Guide](https://sonishsivarajkumar.github.io/ProtoScribe)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/sonishsivarajkumar/ProtoScribe/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/sonishsivarajkumar/ProtoScribe/discussions)
-- 📧 **Email**: support@protoscribe.com
+- �‍💻 **Developer**: [Sonish Sivarajkumar](https://github.com/sonishsivarajkumar)
 
 ## Contributing
 
@@ -201,5 +201,5 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](about/
 ---
 
 <div align="center">
-  <strong>Built with ❤️ for the clinical research community</strong>
+  <strong>Built with ❤️ by Sonish for the clinical research community</strong>
 </div>
