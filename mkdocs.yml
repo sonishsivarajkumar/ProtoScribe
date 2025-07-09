@@ -63,8 +63,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - tables
   - footnotes
 
@@ -89,17 +89,10 @@ nav:
   - API Reference:
     - Overview: api-reference/overview.md
     - Protocols: api-reference/protocols.md
-    - Analysis: api-reference/analysis.md
-    - Guidelines: api-reference/guidelines.md
   - Contributing:
     - Development Setup: contributing/development-setup.md
-    - Code Guidelines: contributing/code-guidelines.md
-    - Testing: contributing/testing.md
-    - Pull Requests: contributing/pull-requests.md
   - About:
     - License: about/license.md
-    - Changelog: about/changelog.md
-    - Support: about/support.md
 
 extra:
   social:
