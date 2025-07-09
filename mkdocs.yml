@@ -1,0 +1,114 @@
+site_name: ProtoScribe Documentation
+site_description: Clinical Trial Protocol AI Optimizer - Complete Documentation
+site_author: Sonish Sivarajkumar
+site_url: https://sonishsivarajkumar.github.io/ProtoScribe
+
+repo_name: sonishsivarajkumar/ProtoScribe
+repo_url: https://github.com/sonishsivarajkumar/ProtoScribe
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
+  - footnotes
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quick-start.md
+    - Configuration: getting-started/configuration.md
+  - User Guide:
+    - Overview: user-guide/overview.md
+    - Protocol Upload: user-guide/protocol-upload.md
+    - AI Analysis: user-guide/ai-analysis.md
+    - Interactive Editor: user-guide/interactive-editor.md
+    - Export & Reports: user-guide/export-reports.md
+  - Developer Guide:
+    - Architecture: developer-guide/architecture.md
+    - Backend API: developer-guide/backend-api.md
+    - Frontend: developer-guide/frontend.md
+    - LLM Integration: developer-guide/llm-integration.md
+    - Database: developer-guide/database.md
+  - API Reference:
+    - Overview: api-reference/overview.md
+    - Protocols: api-reference/protocols.md
+    - Analysis: api-reference/analysis.md
+    - Guidelines: api-reference/guidelines.md
+  - Contributing:
+    - Development Setup: contributing/development-setup.md
+    - Code Guidelines: contributing/code-guidelines.md
+    - Testing: contributing/testing.md
+    - Pull Requests: contributing/pull-requests.md
+  - About:
+    - License: about/license.md
+    - Changelog: about/changelog.md
+    - Support: about/support.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sonishsivarajkumar/ProtoScribe
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/sonishsivarajkumar
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+copyright: Copyright &copy; 2025 Sonish Sivarajkumar

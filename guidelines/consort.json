@@ -1,0 +1,160 @@
+{
+  "name": "CONSORT",
+  "version": "2010",
+  "description": "Consolidated Standards of Reporting Trials",
+  "url": "http://www.consort-statement.org/",
+  "items": [
+    {
+      "id": "1a",
+      "section": "Title and abstract",
+      "item": "Title",
+      "description": "Identification as a randomised trial in the title",
+      "example": "A randomised controlled trial of intervention X versus control Y",
+      "keywords": ["randomised", "randomized", "trial", "RCT"]
+    },
+    {
+      "id": "1b",
+      "section": "Title and abstract",
+      "item": "Abstract",
+      "description": "Structured summary of trial design, methods, results, and conclusions",
+      "example": "Background: ... Methods: ... Results: ... Conclusions: ...",
+      "keywords": ["abstract", "background", "methods", "results", "conclusions"]
+    },
+    {
+      "id": "2a",
+      "section": "Introduction",
+      "item": "Background",
+      "description": "Scientific background and explanation of rationale",
+      "example": "Previous studies have shown... Therefore, this trial aims to...",
+      "keywords": ["background", "rationale", "scientific", "previous studies"]
+    },
+    {
+      "id": "2b",
+      "section": "Introduction",
+      "item": "Objectives",
+      "description": "Specific objectives or hypotheses",
+      "example": "The primary objective is to determine whether...",
+      "keywords": ["objective", "hypothesis", "aim", "primary", "secondary"]
+    },
+    {
+      "id": "3a",
+      "section": "Methods",
+      "item": "Trial design",
+      "description": "Description of trial design (such as parallel, factorial) including allocation ratio",
+      "example": "This is a parallel-group, randomised controlled trial with 1:1 allocation",
+      "keywords": ["trial design", "parallel", "factorial", "allocation", "ratio"]
+    },
+    {
+      "id": "3b",
+      "section": "Methods",
+      "item": "Important changes",
+      "description": "Important changes to methods after trial commencement, with reasons",
+      "example": "The protocol was amended on [date] to change...",
+      "keywords": ["changes", "amendment", "protocol", "modification"]
+    },
+    {
+      "id": "4a",
+      "section": "Methods",
+      "item": "Eligibility criteria",
+      "description": "Eligibility criteria for participants",
+      "example": "Inclusion criteria: ... Exclusion criteria: ...",
+      "keywords": ["eligibility", "inclusion", "exclusion", "criteria", "participants"]
+    },
+    {
+      "id": "4b",
+      "section": "Methods", 
+      "item": "Settings",
+      "description": "Settings and locations where the data were collected",
+      "example": "The trial was conducted at 3 academic medical centers",
+      "keywords": ["settings", "locations", "centers", "sites", "hospitals"]
+    },
+    {
+      "id": "5",
+      "section": "Methods",
+      "item": "Interventions",
+      "description": "Interventions for each group with sufficient details",
+      "example": "Intervention group received... Control group received...",
+      "keywords": ["intervention", "treatment", "control", "placebo", "dose"]
+    },
+    {
+      "id": "6a",
+      "section": "Methods",
+      "item": "Primary outcome",
+      "description": "Completely defined pre-specified primary outcomes",
+      "example": "The primary outcome was change in blood pressure at 12 weeks",
+      "keywords": ["primary outcome", "endpoint", "outcome measure"]
+    },
+    {
+      "id": "6b",
+      "section": "Methods",
+      "item": "Secondary outcomes",
+      "description": "Completely defined pre-specified secondary outcomes",
+      "example": "Secondary outcomes included...",
+      "keywords": ["secondary outcome", "secondary endpoint"]
+    },
+    {
+      "id": "7a",
+      "section": "Methods",
+      "item": "Sample size",
+      "description": "How sample size was determined",
+      "example": "Sample size was calculated to detect a difference of...",
+      "keywords": ["sample size", "power", "calculation", "participants", "subjects"]
+    },
+    {
+      "id": "7b",
+      "section": "Methods",
+      "item": "Interim analyses",
+      "description": "When applicable, explanation of any interim analyses and stopping guidelines",
+      "example": "Interim analyses were planned after enrollment of...",
+      "keywords": ["interim analysis", "stopping", "data monitoring"]
+    },
+    {
+      "id": "8a",
+      "section": "Methods",
+      "item": "Randomisation method",
+      "description": "Method used to generate random allocation sequence",
+      "example": "Randomisation was performed using computer-generated random numbers",
+      "keywords": ["randomisation", "randomization", "allocation", "sequence"]
+    },
+    {
+      "id": "8b",
+      "section": "Methods",
+      "item": "Allocation concealment",
+      "description": "Type of randomisation; details of any restriction",
+      "example": "Block randomisation with varying block sizes was used",
+      "keywords": ["allocation concealment", "block", "stratification"]
+    },
+    {
+      "id": "9",
+      "section": "Methods",
+      "item": "Implementation",
+      "description": "Who generated the sequence, enrolled participants, and assigned to interventions",
+      "example": "The randomisation sequence was generated by... Participants were enrolled by...",
+      "keywords": ["implementation", "enrollment", "assignment"]
+    },
+    {
+      "id": "10",
+      "section": "Methods",
+      "item": "Blinding",
+      "description": "If done, who was blinded after assignment to interventions and how",
+      "example": "Participants, investigators, and outcome assessors were blinded",
+      "keywords": ["blinding", "blind", "masking", "double-blind", "single-blind"]
+    },
+    {
+      "id": "11a",
+      "section": "Methods",
+      "item": "Statistical methods",
+      "description": "Statistical methods used to compare groups for primary outcomes",
+      "example": "The primary analysis used intention-to-treat principle with...",
+      "keywords": ["statistical methods", "analysis", "intention-to-treat", "per-protocol"]
+    },
+    {
+      "id": "11b",
+      "section": "Methods",
+      "item": "Additional analyses",
+      "description": "Methods for additional analyses, such as subgroup analyses",
+      "example": "Subgroup analyses were planned for...",
+      "keywords": ["subgroup", "additional analysis", "sensitivity"]
+    }
+  ]
+}

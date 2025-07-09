@@ -1,0 +1,296 @@
+{
+  "name": "SPIRIT",
+  "version": "2013",
+  "description": "Standard Protocol Items: Recommendations for Interventional Trials",
+  "url": "http://www.spirit-statement.org/",
+  "items": [
+    {
+      "id": "1",
+      "section": "Administrative information",
+      "item": "Title",
+      "description": "Descriptive title identifying the study design, population, interventions, and, if applicable, trial acronym",
+      "example": "A randomised, double-blind, placebo-controlled trial of intervention X in patients with condition Y: the ACRONYM study",
+      "keywords": ["title", "descriptive", "study design", "population", "intervention"]
+    },
+    {
+      "id": "2a",
+      "section": "Administrative information",
+      "item": "Trial registration",
+      "description": "Trial identifier and registry name. If not yet registered, name of intended registry",
+      "example": "ClinicalTrials.gov identifier: NCT12345678",
+      "keywords": ["trial registration", "registry", "identifier", "ClinicalTrials.gov", "NCT"]
+    },
+    {
+      "id": "2b",
+      "section": "Administrative information",
+      "item": "Protocol version",
+      "description": "All items from the World Health Organization Trial Registration Data Set",
+      "example": "WHO Trial Registration Data Set items included",
+      "keywords": ["WHO", "registration", "data set"]
+    },
+    {
+      "id": "3",
+      "section": "Administrative information",
+      "item": "Protocol version",
+      "description": "Date and version identifier",
+      "example": "Protocol version 2.0, dated 15 March 2023",
+      "keywords": ["protocol version", "date", "version", "identifier"]
+    },
+    {
+      "id": "4",
+      "section": "Administrative information",
+      "item": "Funding",
+      "description": "Sources and types of financial, material, and other support",
+      "example": "This study is funded by...",
+      "keywords": ["funding", "support", "sponsor", "financial"]
+    },
+    {
+      "id": "5",
+      "section": "Administrative information",
+      "item": "Roles and responsibilities",
+      "description": "Names, affiliations, and roles of protocol contributors",
+      "example": "Principal Investigator: Dr. X (University Y), Co-investigators: ...",
+      "keywords": ["roles", "responsibilities", "investigators", "contributors"]
+    },
+    {
+      "id": "6a",
+      "section": "Introduction",
+      "item": "Background",
+      "description": "Description of research question and justification for undertaking the trial",
+      "example": "Current evidence suggests... However, gaps remain in...",
+      "keywords": ["background", "research question", "justification", "evidence"]
+    },
+    {
+      "id": "6b",
+      "section": "Introduction",
+      "item": "Rationale",
+      "description": "Explanation for choice of comparators",
+      "example": "The control intervention was chosen because...",
+      "keywords": ["rationale", "comparators", "control", "choice"]
+    },
+    {
+      "id": "7",
+      "section": "Introduction",
+      "item": "Objectives",
+      "description": "Specific objectives or hypotheses",
+      "example": "Primary objective: To determine whether... Secondary objectives: ...",
+      "keywords": ["objectives", "hypotheses", "primary", "secondary", "aims"]
+    },
+    {
+      "id": "8",
+      "section": "Methods: Participants, interventions and outcomes",
+      "item": "Study setting",
+      "description": "Description of study settings and list of centres or sites",
+      "example": "This multi-center trial will be conducted at 5 academic hospitals",
+      "keywords": ["study setting", "centers", "sites", "multi-center"]
+    },
+    {
+      "id": "9",
+      "section": "Methods: Participants, interventions and outcomes",
+      "item": "Eligibility criteria",
+      "description": "Inclusion and exclusion criteria for participants",
+      "example": "Inclusion criteria: 1) Age 18-65 years, 2) Diagnosed with...",
+      "keywords": ["eligibility", "inclusion", "exclusion", "criteria"]
+    },
+    {
+      "id": "10",
+      "section": "Methods: Participants, interventions and outcomes",
+      "item": "Interventions",
+      "description": "Interventions for each group with sufficient detail",
+      "example": "Experimental group: Participants will receive... Control group: ...",
+      "keywords": ["interventions", "experimental", "control", "treatment"]
+    },
+    {
+      "id": "11a",
+      "section": "Methods: Participants, interventions and outcomes",
+      "item": "Primary outcome",
+      "description": "Primary outcome(s) and metric(s) used",
+      "example": "Primary outcome: Change in symptom severity score from baseline to 12 weeks",
+      "keywords": ["primary outcome", "metric", "endpoint", "measure"]
+    },
+    {
+      "id": "11b",
+      "section": "Methods: Participants, interventions and outcomes",
+      "item": "Secondary outcomes",
+      "description": "Secondary outcome(s) and metric(s) used",
+      "example": "Secondary outcomes include: 1) Quality of life scores, 2) Adverse events",
+      "keywords": ["secondary outcomes", "quality of life", "adverse events"]
+    },
+    {
+      "id": "12",
+      "section": "Methods: Participants, interventions and outcomes", 
+      "item": "Participant timeline",
+      "description": "Time schedule of enrolment, interventions, assessments, and visits",
+      "example": "Screening visit: Week -2, Baseline: Week 0, Follow-up visits: Weeks 4, 8, 12",
+      "keywords": ["timeline", "schedule", "visits", "assessments", "follow-up"]
+    },
+    {
+      "id": "13",
+      "section": "Methods: Assignment of interventions",
+      "item": "Sample size",
+      "description": "Estimated number of participants needed to achieve study objectives",
+      "example": "A total of 200 participants (100 per group) will be enrolled",
+      "keywords": ["sample size", "participants", "power", "calculation"]
+    },
+    {
+      "id": "14a",
+      "section": "Methods: Assignment of interventions",
+      "item": "Recruitment",
+      "description": "Strategies for achieving adequate participant enrolment",
+      "example": "Participants will be recruited from outpatient clinics and through advertisements",
+      "keywords": ["recruitment", "enrollment", "strategies", "participants"]
+    },
+    {
+      "id": "14b",
+      "section": "Methods: Assignment of interventions",
+      "item": "Sequence generation",
+      "description": "Method of generating the allocation sequence",
+      "example": "Computer-generated randomisation sequence with permuted blocks",
+      "keywords": ["sequence generation", "randomisation", "allocation", "blocks"]
+    },
+    {
+      "id": "15",
+      "section": "Methods: Assignment of interventions",
+      "item": "Allocation concealment",
+      "description": "Mechanism of implementing the allocation sequence",
+      "example": "Sealed, opaque envelopes will be used for allocation concealment",
+      "keywords": ["allocation concealment", "sealed envelopes", "mechanism"]
+    },
+    {
+      "id": "16",
+      "section": "Methods: Assignment of interventions",
+      "item": "Implementation",
+      "description": "Who will generate the allocation sequence, enrol participants, and assign to interventions",
+      "example": "The statistician will generate the sequence, research nurses will enroll participants",
+      "keywords": ["implementation", "statistician", "enrollment", "assignment"]
+    },
+    {
+      "id": "17a",
+      "section": "Methods: Assignment of interventions",
+      "item": "Blinding (masking)",
+      "description": "Who will be blinded after assignment to interventions",
+      "example": "Participants, investigators, and outcome assessors will be blinded",
+      "keywords": ["blinding", "masking", "participants", "investigators", "assessors"]
+    },
+    {
+      "id": "17b",
+      "section": "Methods: Assignment of interventions",
+      "item": "Emergency unblinding",
+      "description": "Procedure for emergency unblinding of trial participants",
+      "example": "Emergency unblinding will be available 24/7 through...",
+      "keywords": ["emergency unblinding", "procedure", "24/7"]
+    },
+    {
+      "id": "18a",
+      "section": "Methods: Data collection, management, and analysis",
+      "item": "Data collection",
+      "description": "Plans for assessment and collection of outcome, baseline, and other trial data",
+      "example": "Data will be collected using validated questionnaires and clinical assessments",
+      "keywords": ["data collection", "assessments", "questionnaires", "baseline"]
+    },
+    {
+      "id": "18b",
+      "section": "Methods: Data collection, management, and analysis",
+      "item": "Data management",
+      "description": "Plans to promote data quality",
+      "example": "Data will be entered into a secure electronic database with range checks",
+      "keywords": ["data management", "quality", "database", "security"]
+    },
+    {
+      "id": "19",
+      "section": "Methods: Data collection, management, and analysis",
+      "item": "Statistical methods",
+      "description": "Statistical methods for analysing primary and secondary outcomes",
+      "example": "Primary analysis will use intention-to-treat principle with mixed-effects models",
+      "keywords": ["statistical methods", "intention-to-treat", "analysis", "models"]
+    },
+    {
+      "id": "20a",
+      "section": "Methods: Monitoring",
+      "item": "Data monitoring",
+      "description": "Composition of data monitoring committee and its role and reporting structure",
+      "example": "An independent Data Monitoring Committee will review safety data",
+      "keywords": ["data monitoring", "committee", "safety", "independent"]
+    },
+    {
+      "id": "20b",
+      "section": "Methods: Monitoring",
+      "item": "Harms",
+      "description": "Plans for collecting, assessing, and reporting harms",
+      "example": "Adverse events will be collected and graded according to CTCAE criteria",
+      "keywords": ["harms", "adverse events", "safety", "CTCAE"]
+    },
+    {
+      "id": "20c",
+      "section": "Methods: Monitoring",
+      "item": "Auditing",
+      "description": "Frequency and procedures for auditing trial conduct",
+      "example": "Site monitoring visits will occur every 6 months",
+      "keywords": ["auditing", "monitoring visits", "frequency", "procedures"]
+    },
+    {
+      "id": "21a",
+      "section": "Ethics and dissemination",
+      "item": "Research ethics approval",
+      "description": "Plans for seeking research ethics committee/institutional review board approval",
+      "example": "Ethics approval will be obtained from the institutional review board",
+      "keywords": ["ethics approval", "IRB", "institutional review board", "ethics committee"]
+    },
+    {
+      "id": "21b",
+      "section": "Ethics and dissemination",
+      "item": "Protocol amendments",
+      "description": "Plans for communicating important protocol amendments to relevant parties",
+      "example": "Protocol amendments will be submitted to the IRB and trial registry",
+      "keywords": ["protocol amendments", "communication", "IRB", "registry"]
+    },
+    {
+      "id": "22",
+      "section": "Ethics and dissemination",
+      "item": "Consent",
+      "description": "Model consent form and other related documentation given to participants",
+      "example": "Written informed consent will be obtained from all participants",
+      "keywords": ["consent", "informed consent", "consent form", "documentation"]
+    },
+    {
+      "id": "23",
+      "section": "Ethics and dissemination",
+      "item": "Confidentiality",
+      "description": "How personal information about potential and enrolled participants will be protected",
+      "example": "Participant data will be de-identified and stored securely",
+      "keywords": ["confidentiality", "personal information", "de-identified", "security"]
+    },
+    {
+      "id": "24",
+      "section": "Ethics and dissemination",
+      "item": "Declaration of interests",
+      "description": "Financial and other competing interests for principal investigators for the overall trial",
+      "example": "Dr. X has received consulting fees from pharmaceutical company Y",
+      "keywords": ["declaration", "interests", "competing interests", "financial"]
+    },
+    {
+      "id": "25",
+      "section": "Ethics and dissemination",
+      "item": "Access to data",
+      "description": "Statement of who will have access to the final trial dataset",
+      "example": "The principal investigator will have access to the final dataset",
+      "keywords": ["access to data", "final dataset", "principal investigator"]
+    },
+    {
+      "id": "26",
+      "section": "Ethics and dissemination",
+      "item": "Ancillary studies",
+      "description": "Provisions, if any, for ancillary and post-trial care",
+      "example": "Participants will receive standard care after trial completion",
+      "keywords": ["ancillary studies", "post-trial care", "provisions"]
+    },
+    {
+      "id": "27",
+      "section": "Ethics and dissemination",
+      "item": "Dissemination policy",
+      "description": "Plans for investigators and sponsor to communicate trial results",
+      "example": "Results will be published in peer-reviewed journals regardless of outcome",
+      "keywords": ["dissemination", "publication", "results", "peer-reviewed"]
+    }
+  ]
+}
